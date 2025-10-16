@@ -11,5 +11,13 @@
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.4.12"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wanawsha/workflow-repo-ca.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wanawsha/workflow-repo-ca/issues"
+  },
+  "homepage": "https://github.com/wanawsha/workflow-repo-ca#readme"
 }
