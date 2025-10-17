@@ -31,14 +31,14 @@ form.addEventListener("submit", async (e) => {
     if (welcome) {
       welcome.textContent = `Welcome, ${data.name || email}!`;
       welcome.classList.remove("hidden");
-      welcome.removeAttribute("hidden"); // <- extra safety for Playwright
+      welcome.removeAttribute("hidden");
     }
   } catch (err) {
     console.error(err);
     if (error) {
       error.textContent = err.message || "Invalid email or password.";
       error.classList.remove("hidden");
-      error.removeAttribute("hidden"); // <- extra safety
+      error.removeAttribute("hidden");
     }
   }
 });
