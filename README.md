@@ -2,6 +2,15 @@
 
 This repository demonstrates a complete frontend workflow setup with linting, formatting, pre-commit hooks, testing, and end-to-end automation.  
 
+## Tech Stack
+- Javascript (ES Modules)
+- Tailwind CSS
+- HTML
+- ESLint + Prettier
+- Husky + lint-staged
+- Vitest (unit testing)
+- Playwright (end-to-end testing)
+  
 - ## Features
 - **ESLint** configured to handle both application code and test globals
 - **Prettier** configured for consistent formatting
