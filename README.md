@@ -50,3 +50,54 @@ Unit tests (Vitest)
 End-to-End tests (Playwright)
 
 - npm run e2e
+
+
+
+
+## Installation
+
+Clone the repo and install dependencies:
+
+```bash
+git clone https://github.com/wanawsha/workflow-repo-ca.git
+cd workflow-repo-ca
+npm install
+Available Scripts
+Run the following npm scripts in the project:
+
+npm run dev – Run Tailwind CSS in watch mode
+
+npm run lint – Run ESLint for code quality
+
+npm run format – Format files with Prettier
+
+npm run test – Run Vitest unit tests
+
+npm run test:ui – Run Vitest with UI
+
+npm run e2e – Run Playwright end-to-end tests
+
+npm run e2e:ui – Run Playwright with UI
+
+npm run start:static – Serve project locally with http-server
+
+Environment Variables
+A .env file is required for running E2E tests.
+It should be based on .env.example:
+
+bash
+Kopier kode
+E2E_BASE_URL=http://127.0.0.1:8080
+E2E_USER_EMAIL=your_registered_email
+E2E_USER_PASSWORD=your_registered_password
+⚠️ Do not commit .env files. Only .env.example should be in the repo.
+
+Testing
+Unit tests (Vitest)
+bash
+Kopier kode
+npm run test
+End-to-End tests (Playwright)
+bash
+Kopier kode
+npm run e2e
